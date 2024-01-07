@@ -1,0 +1,24 @@
+S. No. - Col.1,Category - Col.2,Sub Category - Col.3,Total - Col.4 (Col.7+Col.8),Surfaced - WBM/WMM - Col.5,Surfaced - BT/CC - Col.6,Surfaced - Total - Col.7 (Col.5+Col.6),Un-surfaced - Col.8
+1,National Highways,Total,126350,0,126350,126350,0
+2,State Highways,Total,186908,1235,184260,185495,1413
+3,District roads,Total,611268,32272,547793,580064,31204
+4,Rural Roads* (excluding JRY),Total,3509582,465675,1829378,2295053,1214529
+4,Rural Roads* (excluding JRY),PMGSY Roads,731234,34641,550644,585284,145950
+4,Rural Roads* (excluding JRY),PWD/RWD Roads,775970,70241,563099,633340,142630
+4,Rural Roads* (excluding JRY),Panchayati Raj Roads,2002379,360794,715635,1076429,925949
+5,Urban Roads,Total,534142,41172,374687,415859,118283
+5,Urban Roads,Municipal Roads,502647,39118,346343,385460,117187
+5,Urban Roads,MES Roads,16170,407,15725,16132,38
+5,Urban Roads,Major Port Roads,737,55,681,736,0
+5,Urban Roads,Minor Port Roads,380,24,323,347,34
+5,Urban Roads,Railway Roads,14207,1569,11615,13184,1023
+6,Project Roads,Total,347547,45886,99584,145471,202077
+6,Project Roads,Forest Department Roads,179160,23751,37285,61037,118123
+6,Project Roads,BRO Roads,30492,867,19752,20619,9873
+6,Project Roads,Coal Mine Roads,4765,629,3831,4460,305
+6,Project Roads,Electricity Department Roads,7235,1484,5248,6733,502
+6,Project Roads,Irrigation Department Roads,108083,18314,20286,38600,69483
+6,Project Roads,Sugarcane Authorities Roads,14947,5,11315,11320,3626
+6,Project Roads,SAIL & NMDC Roads,2865,835,1866,2701,164
+Total* (Excluding JRY Roads),Total* (Excluding JRY Roads),Total* (Excluding JRY Roads),5315797,586240,3162052,3748292,1567506
+Total** (Including JRY Roads),Total** (Including JRY Roads),Total** (Including JRY Roads),6215797,769442,3162052,3931494,2284304

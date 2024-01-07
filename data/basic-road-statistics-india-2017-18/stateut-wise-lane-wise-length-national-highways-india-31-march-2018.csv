@@ -1,0 +1,38 @@
+S. No.,State/UT,Total Length,Less than Two-Lane,Two-Lane,Four-Lane and above
+1,Andhra Pradesh,6412,848,3590,1974
+2,Arunachal Pradesh,2537,1757,758,22
+3,Assam,3909,1196,2598,115
+4,Bihar,4877,417,3631,829
+5,Chhattisgarh,3592,257,2850,485
+6,Goa,293,62,174,57
+7,Gujarat,6050,1532,2100,2418
+8,Haryana,2788,180,1191,1417
+9,Himachal Pradesh,2607,979,1591,37
+10,Jammu & Kashmir,2327,411,1694,222
+11,Jharkhand,2686,116,2192,378
+12,Karnataka,7266,1425,3748,2093
+13,Kerala,1781,294,1350,137
+14,Madhya Pradesh,8219,3101,3438,1680
+15,Maharashtra,17728,10170,3779,3779
+16,Manipur,1751,277,1442,32
+17,Meghalaya,1155,564,534,57
+18,Mizoram,1423,1115,308,0
+19,Nagaland,1548,1460,88,0
+20,Odisha,5430,141,4387,902
+21,Punjab,3269,527,1417,1325
+22,Rajasthan,8916,438,5770,2708
+23,Sikkim,463,171,292,0
+24,Tamil Nadu,6741,1760,2746,2235
+25,Telangana,3795,1222,1608,965
+26,Tripura,854,556,298,0
+27,Uttarakhand,2949,2183,664,102
+28,Uttar Pradesh,11376,3017,5606,2753
+29,West Bengal,3074,279,1698,1097
+30,Andaman & Nicobar Island,332,299,32,1
+31,Chandigarh,15,0,0,15
+32,Dadar & Nagar Haveli,31,31,0,0
+33,Daman & Diu,22,22,0,0
+34,Delhi,70,1,-7,76
+35,Lakshadweep,0,0,0,0
+36,Puducherry,64,0,40,24
+Total,Total,126350,36808,61607,27935

@@ -1,0 +1,75 @@
+S. No. - Col.1,Name of State/UT - Col.2,Name of the Ports - Col.3,Total Length (Col. 7+8) - Col.4,Surfaced - W.B.M. - Col.5,Surfaced - B.T./C.C - Col.6,Surfaced - Total (Col. 5+6) - Col.7,Unsurfaced - Col.8
+1,Andhra Pradesh,Bhavanapadu ,17,0,17,17,0
+1,Andhra Pradesh,Kakinada ,NA,NA,NA,NA,NA
+1,Andhra Pradesh,Machilipatnam ,NA,NA,NA,NA,NA
+1,Andhra Pradesh,Nizampatnam ,NA,NA,NA,NA,NA
+2,Goa*,Tiracol ,80,0,80,80,0
+2,Goa*,Chapora,NA,NA,NA,NA,NA
+2,Goa*,Panajim ,NA,NA,NA,NA,NA
+2,Goa*,Betul ,NA,NA,NA,NA,NA
+2,Goa*,Talpona ,NA,NA,NA,NA,NA
+3,Gujarat,Jakhau ,144,5.24,131,136,8
+3,Gujarat,Mandavi ,NA,NA,NA,NA,NA
+3,Gujarat,Mundra ,NA,NA,NA,NA,NA
+3,Gujarat,Navalakhi ,NA,NA,NA,NA,NA
+3,Gujarat,Okha ,NA,NA,NA,NA,NA
+3,Gujarat,Bedi ,NA,NA,NA,NA,NA
+3,Gujarat,Rozi ,NA,NA,NA,NA,NA
+3,Gujarat,Porbandar ,NA,NA,NA,NA,NA
+3,Gujarat,Veraval,NA,NA,NA,NA,NA
+3,Gujarat,Jafrabad ,NA,NA,NA,NA,NA
+3,Gujarat,Victor ,NA,NA,NA,NA,NA
+3,Gujarat,Alang Ship Breaking Yard ,NA,NA,NA,NA,NA
+3,Gujarat,Bhavnagar,NA,NA,NA,NA,NA
+3,Gujarat,Dahej ,NA,NA,NA,NA,NA
+3,Gujarat,Surat ,NA,NA,NA,NA,NA
+3,Gujarat,Madalla ,NA,NA,NA,NA,NA
+3,Gujarat,Dumas ,NA,NA,NA,NA,NA
+3,Gujarat,Dholai ,NA,NA,NA,NA,NA
+3,Gujarat,Onjal ,NA,NA,NA,NA,NA
+3,Gujarat,Kosamba ,NA,NA,NA,NA,NA
+4,Kerala,Vizhinjam,11,1,10,11,0
+4,Kerala,Valiyathura ,NA,NA,NA,NA,NA
+4,Kerala,Kollam ,NA,NA,NA,NA,NA
+4,Kerala,Kochupilamooodu,NA,NA,NA,NA,NA
+4,Kerala,Neendakara,NA,NA,NA,NA,NA
+4,Kerala,Sakthikulangara,NA,NA,NA,NA,NA
+4,Kerala,Pullikkada ,NA,NA,NA,NA,NA
+4,Kerala,Alappuzha ,NA,NA,NA,NA,NA
+4,Kerala,Kodungallur ,NA,NA,NA,NA,NA
+4,Kerala,Kayamkulam ,NA,NA,NA,NA,NA
+4,Kerala,Ponnani ,NA,NA,NA,NA,NA
+4,Kerala,Thalassery ,NA,NA,NA,NA,NA
+4,Kerala,Azhikkal ,NA,NA,NA,NA,NA
+4,Kerala,Kasaragod ,NA,NA,NA,NA,NA
+4,Kerala,Beypore ,NA,NA,NA,NA,NA
+4,Kerala,Kannur ,NA,NA,NA,NA,NA
+5,Karnataka,Karwar ,15,0,15,15,0
+5,Karnataka,Old Mangalore,NA,NA,NA,NA,NA
+5,Karnataka,Belekeri ,NA,NA,NA,NA,NA
+5,Karnataka,Honnavar,NA,NA,NA,NA,NA
+5,Karnataka,Bhatkal ,NA,NA,NA,NA,NA
+5,Karnataka,Hangarakatta,NA,NA,NA,NA,NA
+5,Karnataka,Malpe ,NA,NA,NA,NA,NA
+5,Karnataka,Tadadi,NA,NA,NA,NA,NA
+5,Karnataka,Padubidri,NA,NA,NA,NA,NA
+5,Karnataka,Kundapura,NA,NA,NA,NA,NA
+6,Odisha*,NA,NA,NA,NA,NA,NA
+6,Odisha*,Gopalpur ,46,13,18,31,15
+6,Odisha*,Dhamara,NA,NA,NA,NA,NA
+6,Odisha*,NA,NA,NA,NA,NA,NA
+7,Maharashtra,NA,30,1,24,25,5
+8,A&N Islands,Port Blair,11,3,7,10,1
+8,A&N Islands,Campbell Bay,NA,NA,NA,NA,NA
+8,A&N Islands,Hut Bay,NA,NA,NA,NA,NA
+8,A&N Islands,Rangat Bay,NA,NA,NA,NA,NA
+8,A&N Islands,Car nicobar ,NA,NA,NA,NA,NA
+9,Daman & Diu,Daman ,8,0,8,8,0
+9,Daman & Diu,Diu,NA,NA,NA,NA,NA
+10,Puducherry,Puducherry,17,1,13,13,4
+10,Puducherry,Karaikal ,NA,NA,NA,NA,NA
+11,Tamil Nadu *,Cuddalore,0,0,0,0,0
+11,Tamil Nadu *,Nagapattinam,NA,NA,NA,NA,NA
+11,Tamil Nadu *,Rameswaram,NA,NA,NA,NA,NA
+11,Tamil Nadu *,Colachel,NA,NA,NA,NA,NA
+Total,Total,Total,380,24,323,347,34

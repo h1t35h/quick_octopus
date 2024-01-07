@@ -1,0 +1,24 @@
+S. No,Category,Sub Category,Category wise Total Road lengh,% share of Total Road length,Category wise Surfaced road length
+1,National Highways,Total,126350,2,126350
+2,State Highways,Total,186908,3,185495
+3,District roads,Total,611268,10,580064
+4,Rural Roads*,Total,3509582,56,2295053
+4,Rural Roads*,PMGSY Roads,731234,NA,585284
+4,Rural Roads*,PWD/RWD Roads,775970,NA,633340
+4,Rural Roads*,Panchayati Raj Roads,2002379,NA,1076429
+5,Urban Roads,Total,534142,9,415859
+5,Urban Roads,Municipal Roads,502647,NA,385460
+5,Urban Roads,MES Roads,16170,NA,16132
+5,Urban Roads,Major Port Roads,737,NA,736
+5,Urban Roads,Minor Port Roads,380,NA,347
+5,Urban Roads,Railway Roads,14207,NA,13184
+6,Project Roads,Total,347547,6,145471
+6,Project Roads,Forest Department Roads,179160,NA,61037
+6,Project Roads,BRO Roads,30492,NA,20619
+6,Project Roads,Coal Mine Roads,4765,NA,4460
+6,Project Roads,Electricity Department Roads,7235,NA,6733
+6,Project Roads,Irrigation Department Roads,108083,NA,38600
+6,Project Roads,Sugarcane Authorities Roads,14947,NA,11320
+6,Project Roads,SAIL & NMDC Roads,2865,NA,2701
+Total* (Excluding JRY Roads),Total* (Excluding JRY Roads),Total* (Excluding JRY Roads),5315797,NA,3748292
+Total** (Including JRY Roads),Total** (Including JRY Roads),Total** (Including JRY Roads),6215797,NA,3931494

@@ -1,0 +1,38 @@
+S.No. - Col.1,Name of State/UT - Col.2,Total Length (Col. 6+7) - Col.3,Surfaced - WBM/ WMM - Col.4,Surfaced - BT/CC - Col.5,Surfaced - Total (Col. 4+5) - Col.6,Un-surfaced - Col.7
+1,Andhra Pradesh,0,0,0,0,0
+2,Arunachal Pradesh,6624,0,1615,1615,5009
+3,Assam,40367,0,22859,22859,17508
+4,Bihar ,74857,7599,33723,41322,33534
+5,Chhattisgarh ,13182,1350,9978,11328,1854
+6,Goa,4830,0,4826,4826,4
+7,Gujarat,23114,499,21622,22121,993
+8,Haryana ,0,0,0,0,0
+9,Himachal Pradesh,21902,1048,13247,14295,7607
+10,Jammu & Kashmir,47878,6348,28383,34731,13147
+11,Jharkhand,14926,0,14926,14926,0
+12,Karnataka ,0,0,0,0,0
+13,Kerala ,0,0,0,0,0
+14,Madhya Pradesh,26482,4980,18762,23742,2740
+15,Maharashtra,146135,47151,53830,100981,45154
+16,Manipur ,0,0,0,0,0
+17,Meghalaya,2824,160,1557,1718,1107
+18,Mizoram,2284,0,846,846,1438
+19,Nagaland ,3538,431,0,431,3107
+20,Odisha ,0,0,0,0,0
+21,Punjab,30761,0,30761,30761,0
+22,Rajasthan,112672,142,110201,110344,2329
+23,Sikkim ,0,0,0,0,0
+24,Tamil Nadu ,0,0,0,0,0
+25,Telangana ,0,0,0,0,0
+26,Tripura,10665,0,9915,9915,750
+27,Uttarakhand,17155,502,10504,11006,6149
+28,Uttar Pradesh,168714,0,168694,168694,20
+29,West Bengal,4778,26,4588,4614,164
+30,A & N Island,464,2,446,448,16
+31,Chandigarh ,0,0,0,0,0
+32,D & N Haveli,671,2,668,671,0
+33,Daman & Diu,24,0,24,24,0
+34,Delhi ,NA,NA,NA,NA,NA
+35,Lakshadweep,217,0,217,217,0
+36,Puducherry,906,1,905,906,0
+Total,Total,775970,70241,563099,633340,142630

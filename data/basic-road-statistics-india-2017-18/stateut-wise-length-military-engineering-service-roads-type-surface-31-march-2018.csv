@@ -1,0 +1,38 @@
+S. No. - Col.1,Name of State/UT - Col.2,Total Length (Col. 6+7) - Col.3,Surfaced - W.B.M. - Col.4,Surfaced - B.T./C.C - Col.5,Surfaced - Total (Col. 4+5) - Col.6,Unsurfaced - Col.7
+1,Andhra Pradesh ,385,0,385,385,0
+2,Arunachal Pradesh,52,0,52,52,0
+3,Assam ,259,17,241,259,0
+4,Bihar ,27,0,27,27,0
+5,Chhattisgarh,2,0,2,2,0
+6,Goa,110,0,110,110,0
+7,Gujarat ,787,0,787,787,0
+8,Haryana ,817,4,797,802,15
+9,Himachal Pradesh ,233,4,229,233,0
+10,Jammu & Kashmir,1353,72,1277,1349,4
+11,Jharkhand,1,0,1,1,0
+12,Karnataka ,544,17,519,536,8
+13,Kerala ,182,0,182,182,0
+14,Madhya Pradesh ,759,0,759,759,0
+15,Maharashtra ,1484,0,1483,1483,1
+16,Manipur ,7,7,0,7,0
+17,Meghalaya,37,22,15,37,0
+18,Mizoram ,0,0,0,0,0
+19,Nagaland,23,23,0,23,0
+20,Odisha ,56,0,56,56,0
+21,Punjab ,2176,205,1964,2169,7
+22,Rajasthan ,2538,0,2538,2538,0
+23,Sikkim,20,0,20,20,0
+24,Tamil Nadu ,486,2,484,486,0
+25,Telangana ,551,0,551,551,0
+26,Tripura ,0,0,0,0,0
+27,Uttarakhand ,398,14,380,395,3
+28,Uttar Pradesh ,1501,0,1501,1501,0
+29,West Bengal ,640,20,621,640,0
+30,A & N Islands,104,0,104,104,0
+31,Chandigarh ,90,0,90,90,0
+32,D & N Haveli,0,0,0,0,0
+33,Daman & Diu,92,0,92,92,0
+34,Delhi ,451,0,451,451,0
+35,Lakshadweep,8,0,8,8,0
+36,Puducherry,0,0,0,0,0
+Total,Total,16170,407,15725,16132,38
