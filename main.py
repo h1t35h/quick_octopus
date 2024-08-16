@@ -13,7 +13,7 @@ if __name__ == '__main__':
         # "https://data.gov.in/catalog/road-transport-year-book-2019-20",
         # "https://data.gov.in/resource/basic-fare-ordinary-passenger-trains-vis-vis-express-trains-over-non-suburban-sections",
         # "https://data.gov.in/resource/growth-indian-fleet-type-vessels-1985-2022",
-        # "https://data.gov.in/resource/passenger-bus-transport-operational-aggregates-during-1979-80",
+        "https://data.gov.in/resource/passenger-bus-transport-operational-aggregates-during-1979-80",
     ]
 
     # ViR1kXa1PBJk3DJHuB1uuQ64tQlDVZ518xQE47RKgfQ
@@ -22,7 +22,9 @@ if __name__ == '__main__':
             resources = get_catalog_resources(url)
             catalog = url[url.find('catalog/') + len('catalog/'):]
             for resource in resources:
-                download_resource(download_page=f'https://data.gov.in{resource}', dir=f'data/{catalog}')
+                download_resource(
+                    download_page=f'https://data.gov.in{resource}',
+                    dir=f'data/{catalog}')
             print(f"Catalog: {url}")
         elif "resource" in url:
             download_resource(download_page=url, dir=f'data')

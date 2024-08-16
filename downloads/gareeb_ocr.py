@@ -10,7 +10,8 @@ def align_captcha():
     img = cv2.imread("current.jpeg", cv2.IMREAD_GRAYSCALE)
     # ret, img = cv2.threshold(img, 50, 255, cv2.THRESH_BINARY_INV)
 
-    Contours = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
+    Contours = \
+        cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
     # Contours.sort(key=lambda x: cv2.boundingRect(x)[0])
     Contours = sorted(Contours, key=lambda x: cv2.boundingRect(x)[0])
 
@@ -28,12 +29,13 @@ def align_captcha():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+
 def get_value(ocr_image):
     global captcha_val
 
     def submit(event=None):
         global captcha_val
-        input_value = entry.get().replace('\n','').upper()
+        input_value = entry.get().replace('\n', '').upper()
         captcha_val = input_value
         print(f"Catpcha Value sent: {captcha_val}")
         root.destroy()
@@ -47,7 +49,8 @@ def get_value(ocr_image):
     # align_captcha()
 
     g_scale = ocr_image.convert('L')
-    helper_text = str(pytesseract.image_to_string(g_scale).replace(" ", "")).upper()
+    helper_text = str(
+        pytesseract.image_to_string(g_scale).replace(" ", "")).upper()
 
     entry = tk.Entry(root)
     entry.bind('<Return>', submit)
@@ -65,4 +68,7 @@ def get_value(ocr_image):
     submit_button.pack()
 
     root.mainloop()
+
+    # Store images for model training.
+    ocr_image.save(f"ocr_data/{captcha_val}.jpg")
     return captcha_val

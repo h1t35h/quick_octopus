@@ -4,6 +4,8 @@ import os
 
 from downloads.gareeb_ocr import get_value
 
+COOKIE = "citrix_ns_id=AAE7bJi4ZjsLxTYAAAAAADuMGtjGAxHPGX4gO7y3OUchIsI-WCRCF6VGVQCs3sXHOw==0Jy4Zg==0kwHIAQjwyXFsgUU0tbyOUDeX34=; citrix_ns_id_.data.gov.in_%2F_wat=AAAAAAV7Yax5TTWSwPmKVb7zUcM9P4reR2HQ6aA4qhcMQSaIR9SFtRxn89k-dzKQLJlwe7HAX_hQVsDYFlqUYun8No8-&; fontSize=67.5"
+
 
 def get_resource_detail(download_page, resource):
     headers = {
@@ -13,13 +15,15 @@ def get_resource_detail(download_page, resource):
         'Accept-Encoding': 'gzip, deflate, br',
         'Referer': f'{download_page}',
         'Connection': 'keep-alive',
-        'Cookie': 'citrix_ns_id=AAE77IaZZTuNXjIAAAAAADuMGtjGAxHPGX4gO0RkPkSDj1cqh8oLwdaSFCJh-PD7Ow==roqZZQ==h-I7BXGpmSy7FnqpXBf9ElZS21A=; fontSize=67.5',
+        'Cookie': COOKIE,
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin'
     }
-    response = requests.get(url=f'https://data.gov.in/backend/dms/v1/resource/{resource}?_format=json',
-                            headers=headers)
+    response = requests.get(
+        url=f'https://www.data.gov.in/backend/dms/v1/ogdp/captcha/refresh/image/download_purpose?_format=json',
+        # url=f'https://data.gov.in/backend/dms/v1/resource/{resource}?_format=json',
+        headers=headers)
 
     return response.json()['nid'][0]['value']
 
@@ -32,7 +36,7 @@ def ref_image_down(download_page):
         'Accept-Encoding': 'gzip, deflate, br',
         'Referer': f'{download_page}',
         'Connection': 'keep-alive',
-        'Cookie': 'citrix_ns_id=AAA7s3iZZTuyIxcAAAAAADuMGtjGAxHPGX4gOzVglnj-t-2_KYp3QS5pOwB3wsrGOw==Wn-ZZQ==rOpg9iGVQMtNq6S5EN_dAOJHLzw=; fontSize=67.5',
+        'Cookie': COOKIE,
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin'
@@ -51,12 +55,14 @@ def get_captcha_value(download_page, captcha_url):
         'Accept-Encoding': 'gzip, deflate, br',
         'Referer': f'{download_page}',
         'Connection': 'keep-alive',
-        'Cookie': 'citrix_ns_id=AAA7s3iZZTuyIxcAAAAAADuMGtjGAxHPGX4gOzVglnj-t-2_KYp3QS5pOwB3wsrGOw==dH-ZZQ==Jl955AE5uKi1eL3P12EvotX2aGw=; fontSize=67.5',
+        'Cookie': COOKIE,
         'Sec-Fetch-Dest': 'image',
         'Sec-Fetch-Mode': 'no-cors',
         'Sec-Fetch-Site': 'same-origin'
     }
-    captcha_image = Image.open(requests.get(f'https://data.gov.in/backend/dms/v1{captcha_url}', stream=True).raw)
+    captcha_image = Image.open(
+        requests.get(f'https://data.gov.in/backend/dms/v1{captcha_url}',
+                     stream=True).raw)
     ocr_value = get_value(captcha_image)
     print(f"GOCR: {ocr_value}")
     return ocr_value
@@ -73,7 +79,7 @@ def download_csv_file(download_page, captcha_details, resource_id):
         'Content-Type': 'application/json',
         'Origin': 'https://data.gov.in',
         'Connection': 'keep-alive',
-        'Cookie': 'citrix_ns_id=AAA7s3iZZTuyIxcAAAAAADuMGtjGAxHPGX4gOzVglnj-t-2_KYp3QS5pOwB3wsrGOw==dH-ZZQ==Jl955AE5uKi1eL3P12EvotX2aGw=; fontSize=67.5',
+        'Cookie': COOKIE,
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin'
@@ -153,9 +159,10 @@ def download_csv_file(download_page, captcha_details, resource_id):
             }
         ]
     }
-    response = requests.post(url='https://data.gov.in/backend/dms/v1/ogdp/download_purpose?_format=json',
-                             headers=headers,
-                             json=payload)
+    response = requests.post(
+        url='https://data.gov.in/backend/dms/v1/ogdp/download_purpose?_format=json',
+        headers=headers,
+        json=payload)
     print(response)
     return response.json()
 
@@ -173,11 +180,13 @@ def download_file(url, filename, directory):
                 if chunk:
                     file.write(chunk)
     else:
-        print(f"Failed to download file. HTTP response code: {response.status_code}")
+        print(
+            f"Failed to download file. HTTP response code: {response.status_code}")
 
 
 def download_resource(download_page, dir):
-    resource = download_page[download_page.find("resource/") + len("resource/"):]
+    resource = download_page[
+               download_page.find("resource/") + len("resource/"):]
     resource_id = get_resource_detail(download_page, resource)
     print(f"resource_id: {resource_id}")
     image_down_response = ref_image_down(download_page).json()
@@ -188,9 +197,12 @@ def download_resource(download_page, dir):
         'token': image_down_response['token'],
         'response': captcha_response
     }
-    download_details = download_csv_file(download_page, captcha_details=captcha_details, resource_id=resource_id)
+    download_details = download_csv_file(download_page,
+                                         captcha_details=captcha_details,
+                                         resource_id=resource_id)
     print(download_details)
-    download_file(download_details['download_url'], f"{resource}.csv", f'{dir}/')
+    download_file(download_details['download_url'], f"{resource}.csv",
+                  f'{dir}/')
     print(f"download_details: {download_details}")
 
 
